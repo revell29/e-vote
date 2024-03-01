@@ -9,7 +9,7 @@ async function IndexPage() {
   return (
     <div className='container bg-white py-6'>
       <div className='flex flex-col space-y-10'>
-        {candidates.map((candidate) => (
+        {candidates.map((candidate: Candidate) => (
           <CardCandidate
             key={candidate.candidateId}
             candidate={candidate as Candidate}
