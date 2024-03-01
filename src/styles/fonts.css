@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Neulis Alt Medium';
+  src: url('/fonts/NeulisAlt-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Neulis Alt SemiBold';
+  src: url('/fonts/NeulisAlt-SemiBold.ttf') format('truetype');
+}
