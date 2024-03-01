@@ -6,7 +6,6 @@ const nextConfig = {
   },
   reactStrictMode: true,
   swcMinify: true,
-
   images: {
     domains: ['jb-assets-alpha.sg-sin1.upcloudobjects.com'],
   },

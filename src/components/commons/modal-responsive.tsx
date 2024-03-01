@@ -57,14 +57,7 @@ export default function ModalResponsive({
 
   return (
     <Dialog open={openModal} onOpenChange={setOpenModal}>
-      <DialogContent
-        className={className || 'max-w-4xl'}
-        onInteractOutside={
-          isDisableOutside
-            ? (e: React.MouseEvent) => e.preventDefault()
-            : undefined
-        }
-      >
+      <DialogContent className={className || 'max-w-4xl'}>
         <DialogHeader className={cn(classHeader)}>
           <DialogTitle className='text-xl'>{title}</DialogTitle>
         </DialogHeader>
